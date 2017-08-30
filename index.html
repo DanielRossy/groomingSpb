@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Грумер и мастер по стрижке собак - Дарья Тощева</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- Header -->
+	<header class="header" id="header">
+		<div class="header-fixed">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-0 col-sm-1 col-xs-10">
+						<a href="#header" class="logo">
+							<img src="img/Logo-min.png" alt="" class="logo-ikon">
+							<div class="logo-text-box dispnone1052 disp840">
+								<span class="logo-text logo-text1">Ваш личный Грумер</span> 
+								<span class="logo-text logo-text2">Дарья Тощева</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-8 col-md-9 col-sm-11 col-sm-offset-0 dispnone840">
+						<nav class="menu">
+							<ul class="menu-list">
+								<li class="menu-item">
+									<a href="#services">Мои услуги</a>
+								</li>
+								<li class="menu-item">
+									<a href="#price">Мои цены</a>
+								</li>
+								<li class="menu-item">
+									<a href="#portfolio">Моё портфолио</a>
+								</li>
+								<li class="menu-item">
+									<a href="#reviews">Отзывы моих клиентов</a>
+								</li>
+								<li class="menu-item">
+									<a href="#contacts">Мои контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header-burger disp840" id="toggler-init">
+				        <a class="burger">
+				         	<span></span>
+				         	<span></span>
+				         	<span></span>
+				        </a>
+				    </div>
+				</div>
+			</div>
+			<div class="mini-menu" id="toggler-item">
+			        <nav class="menu">
+						<ul class="mini-menu-list">
+							<li class="mini-menu-item">
+								<a id="toggler-up1" href="#services">Мои услуги</a>
+							</li>
+							<li class="mini-menu-item">
+								<a id="toggler-up2" href="#price">Мои цены</a>
+							</li>
+							<li class="mini-menu-item">
+								<a id="toggler-up3" href="#portfolio">Моё портфолио</a>
+							</li>
+							<li class="mini-menu-item">
+								<a id="toggler-up4" href="#reviews">Отзывы моих клиентов</a>
+							</li>
+							<li class="mini-menu-item">
+								<a id="toggler-up5" href="#contacts">Мои контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+		</div>
+	</header>
+
+	<!-- Popup -->
+	<div class="popup-box">
+		<h3 class="popup-title">Заказ стрижки</h3>
+		<p class="popup-text">Заполните пожалуйста 2 поля и нажмите "Заказать выезд", <br> а я Вам перезвоню :)</p>
+		<span class="popup-close"></span>
+		<div class="form">
+			<form class="popup-form-box" action="sendail.php" data-them="Grooming">
+				<p class="popup-form-text">Ваше имя:</p>
+				<input class="popup-form" type="text" name="name" data-name="Имя: " placeholder="Имя">
+				<p class="popup-form-text">Ваш номер телефона в любом формате:</p>
+				<input class="popup-form" type="number" name="phone"  data-name="Номер: " placeholder="Телефон" data-required>
+				<input class="popup-btn" type="submit" value="Заказать выезд" class="btn-form">
+			</form>
+		</div>
+	</div>
+	<div class="popup-bg"></div>
+
+	<!-- Promo -->
+	<section class="promo">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h1 class="promo-title">Грумер и мастер по стрижке собак и кошек - Дарья Тощева <br> на дом по Санкт-Петербургу</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-1 col-xs-10">
+					<h2 class="promo-subtitle">Я всю жизнь провела с животными и знаю всё <br> об уходе за ними <br><br>
+					Я могу приехать в любую точку СПб,  либо <br>Вы можете привезти животное ко мне</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-lg-offset-2 position-center paddingnone brnone">
+					<button class="order-btn popup-open">Закажите выезд</button><br>
+					<span class="order-text">или позвоните мне<br><span class="order-text-bold">+7 (981) 109-21-18</span></span>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Triggers -->
+	<section class="triggers">
+		<div class="container-fluid">
+			<h2 class="triggers-title">Если позвоните мне, то</h2>
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row triggers-first-row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mt20">
+						<div class="trigger-box trigger-time">
+							<h3 class="trigger-title">Выберете удобное время</h3>
+							<p class="trigger-text">Вам не нужно записываться заранее и ждать много дней, ведь я могу приехать сразу</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mt20">
+						<div class="trigger-box trigger-location">
+							<h3 class="trigger-title">Сама приеду к Вам</h3>
+							<p class="trigger-text">Вам не нужно ехать самим и заботиться о транспортировке животного</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mt20">
+						<div class="trigger-box trigger-cost">
+							<h3 class="trigger-title">Вы не переплатите</h3>
+							<p class="trigger-text">Вам не нужно переплачивать салонам за аренду, сотрудников и рекламу, я работаю одна</p>
+						</div>
+					</div>
+				</div>
+				<div class="row triggers-second-row">
+					<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 mt20">
+						<div class="trigger-box trigger-beauty">
+							<h3 class="trigger-title">Ваше животное станет украшением</h3>
+							<p class="trigger-text">Вы можете не беспокоиться о красоте Вашего питомца, ведь оно станет украшением Вас, а также моего портфолио</p>
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 mt20">
+						<div class="trigger-box trigger-comment">
+							<h3 class="trigger-title">Вы сможете оставить отзыв</h3>
+							<p class="trigger-text">Вы можете узнать мнение других людей о моих работах, а также поделиться своим</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="services"></div>
+	</section>
+	
+	<!-- Services -->
+	<section class="services">
+		<div class="container-fluid">
+			<h2 class="services-title">Мои услуги</h2>
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1">
+					<div class="row services-row services-row1">
+						<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-1 col-xs-12 mt20">
+							<div class="service-box service1">
+								<h3 class="service-title ">Стрижка шерсти</h3>
+								<p class="service-text">Стрижка шерсти собачек <br> и кошечек по Вашему вкусу</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-4 col-xs-12 mt20">
+							<div class="service-box service2">
+								<h3 class="service-title ">Чистка зубов</h3>
+								<p class="service-text">Гигиеническая процедура обработки зубов</p>
+							</div>
+						</div>
+					</div>
+					<div class="row services-row">
+						<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-12 mt20">
+							<div class="service-box service3">
+								<h3 class="service-title ">Вычесывание колтунов</h3>
+								<p class="service-text">Простая и безболезненная процедура восстановления шерсти</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-lg-offset-4 col-md-3 col-md-offset-4 col-sm-3 col-sm-offset-4 col-xs-12 mt20">
+							<div class="service-box service4">
+								<h3 class="service-title ">Мытьё шерсти</h3>
+								<p class="service-text">Купание, которое будет по душе Вашему животному</p>
+							</div>
+						</div>
+					</div>
+					<div class="row services-row">
+						<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-12 mt20">
+							<div class="service-box service5">
+								<h3 class="service-title ">Стрижка ногтей</h3>
+								<p class="service-text">Необходимая процедура <br> для всех видов животных</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-lg-offset-5 col-ms-3 col-md-offset-5 col-sm-3 col-sm-offset-5 col-xs-12 mt20">
+							<div class="service-box service6">
+								<h3 class="service-title ">Чистка желез</h3>
+								<p class="service-text">Гигиеническая чистка <br> анальных желез</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row position-center">
+				<div class="col-lg-4 col-lg-offset-4 paddingnone mt20">
+					<button class="order-btn popup-open">Закажите выезд</button><br>
+					<span class="order-text">или позвоните мне<br><span class="order-text-bold">+7 (981) 109-21-18</span></span>
+				</div>
+			</div>
+		</div>
+		<div id="price"></div>
+	</section>
+
+	<!-- Price -->
+	<section class="price">
+		<div class="container-fluid">
+			<h2 class="price-title">Мои цены</h2>
+			<div class="price-table">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 price-first-row col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 price-box">
+								<h3 class="price-subtitle">КОМПЛЕКСНАЯ СТРИЖКА</h3>
+								<span class="price-item price-item--top price-item--ikon price-item--ikon1 ml30">Стрижка шерсти</span> <br>
+								<span class="price-item price-item--ikon price-item--ikon2 ml30">Мытьё шерсти</span> <br>
+								<span class="price-item price-item--ikon price-item--ikon3 ml30">Стрижка ногтей</span>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 price-box">
+								<p class="price-main-cost">от 800 до 1200 рублей</p>
+								<p class="price-description">в зависимости от размеров животного, типа шерсти <br> и желаемой стрижки</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 price-second-row">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 price-box">
+								<span class="price-item price-item--ikon price-item--ikon4 ml30">Вычесывание колтунов</span>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 price-box">
+								<span class="price-item">300 рублей в час</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 price-third-row">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 price-box">
+								<span class="price-item price-item--ikon price-item--ikon5 ml30">Чистка зубов</span>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 price-box">
+								<span class="price-item">150 рублей</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 price-fours-row">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 price-box">
+								<span class="price-item price-item--ikon price-item--ikon6 ml30">Чистка желез</span>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 price-box">
+								<span class="price-item">150 рублей</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="portfolio"></div>
+		</div>
+		
+	</section>
+
+	<!-- Portfolio -->
+	<section class="portfolio">
+		<div class="container-fluid">
+			<h2 class="portfolio-title">Моё портфолио</h2>
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+					<div class="portfolio-slider slider">
+						<div class="portfolio-box">
+							<h3 class="portfolio-box-title">Шпиц Ричард</h3>
+							<span class="portfolio-time">Дата стрижки: 15 мая 2017 года</span>
+							<p class="portfolio-text">Большой шар любви и нежности, который требует к себе большого внимания!:) После комплексной стрижки, он заслуживает звания мужчины года!</p>
+							<div class="portfolio-img-box">
+								<div class="porfolio-img">
+									<img src="img/portfolio-img1.png" alt="">
+								</div>
+								<div class="porfolio-img">
+									<img src="img/portfolio-img2.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-box">
+							<h3 class="portfolio-box-title">Шпиц Ричард</h3>
+							<span class="portfolio-time">Дата стрижки: 15 мая 2017 года</span>
+							<p class="portfolio-text">Большой шар любви и нежности.Требует к себе всегда минутку-внимания))) После комплексной стрижки, заслуживает почетное имя-мужчина года</p>
+							<div class="portfolio-img-box">
+								<div class="porfolio-img">
+									<img src="img/portfolio-img1.png" alt="">
+								</div>
+								<div class="porfolio-img">
+									<img src="img/portfolio-img2.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-box">
+							<h3 class="portfolio-box-title">Шпиц Ричард</h3>
+							<span class="portfolio-time">Дата стрижки: 15 мая 2017 года</span>
+							<p class="portfolio-text">Большой шар любви и нежности.Требует к себе всегда минутку-внимания))) После комплексной стрижки, заслуживает почетное имя-мужчина года</p>
+							<div class="portfolio-img-box">
+								<div class="porfolio-img">
+									<img src="img/portfolio-img1.png" alt="">
+								</div>
+								<div class="porfolio-img">
+									<img src="img/portfolio-img2.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-box">
+							<h3 class="portfolio-box-title">Шпиц Ричард</h3>
+							<span class="portfolio-time">Дата стрижки: 15 мая 2017 года</span>
+							<p class="portfolio-text">Большой шар любви и нежности.Требует к себе всегда минутку-внимания))) После комплексной стрижки, заслуживает почетное имя-мужчина года</p>
+							<div class="portfolio-img-box">
+								<div class="porfolio-img">
+									<img src="img/portfolio-img1.png" alt="">
+								</div>
+								<div class="porfolio-img">
+									<img src="img/portfolio-img2.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-box">
+							<h3 class="portfolio-box-title">Шпиц Ричард</h3>
+							<span class="portfolio-time">Дата стрижки: 15 мая 2017 года</span>
+							<p class="portfolio-text">Большой шар любви и нежности.Требует к себе всегда минутку-внимания))) После комплексной стрижки, заслуживает почетное имя-мужчина года</p>
+							<div class="portfolio-img-box">
+								<div class="porfolio-img">
+									<img src="img/portfolio-img1.png" alt="">
+								</div>
+								<div class="porfolio-img">
+									<img src="img/portfolio-img2.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-box">
+							<h3 class="portfolio-box-title">Шпиц Ричард</h3>
+							<span class="portfolio-time">Дата стрижки: 15 мая 2017 года</span>
+							<p class="portfolio-text">Большой шар любви и нежности.Требует к себе всегда минутку-внимания))) После комплексной стрижки, заслуживает почетное имя-мужчина года</p>
+							<div class="portfolio-img-box">
+								<div class="porfolio-img">
+									<img src="img/portfolio-img1.png" alt="">
+								</div>
+								<div class="porfolio-img">
+									<img src="img/portfolio-img2.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="reviews"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Reviews -->
+	<section class="reviews">
+		<div class="container-fluid">
+			<h2 class="reviews-title">Отзывы моих клиентов</h2>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+					<h3 class="reviews-subtitle">Из социальной сети Вконтакте</h3>
+				</div>
+			</div>
+			<div class="row reviews-img-row">
+				<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">
+					<div class="reviews-img-box">
+						<img src="img/reviews-img1.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-5 mt10">
+					<div class="reviews-img-box">
+						<img src="img/reviews-img2.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-4 paddingnone">
+					<a href="https://vk.com/topic-139626807_36926542" class="riviews-btn">
+						<span class="reviews-btn-text1">Оставить отзыв</span> <br>
+						<span class="reviews-btn-text2">Вконтакте</span>
+					</a>
+				</div>
+			</div>
+			<div id="contacts"></div>
+		</div>
+	</section>
+
+	<!-- Contacts -->
+	<section class="contacts">
+		<div class="container-fluid">
+			<h2 class="contacts-title">Мои контакты</h2>
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+					<div class="contacts-box">
+						<span class="contacts-text contacts-text1">
+							Мой номер телефона: <br>+7 (981) 109-21-18
+						</span>
+						<span class="contacts-text contacts-text2">
+							<a href="https:/instagram.com/dariagrum" class="link-inst">Мои instagram: <br>Instagram.com/dariagrum</a>
+						</span>
+						<span class="contacts-text contacts-text3">
+							<a href="https://vk.com/dariagrum" class="link-vk">Моя группа Вконтакте: <br>vk.com/dariagrum</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row position-center">
+				<div class="col-lg-4 col-lg-offset-4 paddingnone mt20">
+					<button class="order-btn popup-open">Закажите выезд</button><br>
+					<span class="order-text">или позвоните мне<br><span class="order-text-bold">+7 (981) 109-21-18</span></span>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<script src="libs/jquery-3.2.1.min.js"></script>
+	<script src="libs/jquery-migrate-1.4.1.min.js"></script>
+	<script src="libs/slick.min.js"></script>
+	<script src="libs/bootstrap.js"></script>
+	<script src="js/main-script.js"></script>
+
+</body>
+</html>
